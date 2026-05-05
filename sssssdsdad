@@ -1,0 +1,7 @@
+local VIM = game:GetService("VirtualInputManager")
+
+while true do
+    VIM:SendMouseButtonEvent(727, 562, 0, true, game, 0)
+    VIM:SendMouseButtonEvent(727, 562, 0, false, game, 0)
+    task.wait(0)
+end
